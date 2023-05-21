@@ -1,4 +1,5 @@
 require("ottabit.settings")
+require("ottabit.keybindings")
 require("ottabit.plugins")
 require("ottabit.plugins.autopairs")
 require("ottabit.plugins.bufferline")
