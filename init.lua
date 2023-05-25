@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-require("ottabit.settings")
-require("ottabit.keybindings")
-require("ottabit.plugins")
-require("ottabit.plugins.autopairs")
-require("ottabit.plugins.bufferline")
-require("ottabit.plugins.cmp")
--- require('ottabit.plugins.gitsigns')
-require("ottabit.plugins.lspkind")
-require("ottabit.plugins.lualine")
-require("ottabit.plugins.mason")
-require("ottabit.plugins.neotree")
-require("ottabit.plugins.null-ls")
-require("ottabit.plugins.telescope")
-require("ottabit.plugins.treesitter")
-require("ottabit.plugins.trouble")
-require("ottabit.colorscheme.onedark")
-=======
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
@@ -554,4 +536,3 @@ cmp.setup {
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
->>>>>>> master
